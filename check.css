@@ -1,0 +1,77 @@
+.logo{
+
+height: 50px;
+width: 50px;
+
+}
+.barnav{
+
+   
+display: inline;
+    float:right;
+
+
+
+}
+.a1{
+display: inline;
+margin: 20px;
+font-size: 25px;
+font-weight: bold;
+font-style: italic;
+}
+a{
+color: blueviolet;
+text-decoration: none;
+
+}
+.first{
+   
+   border : 5px outset rgb(34, 8, 40);
+   width: 1500px;
+   margin-top: -9px;
+   height: 80px;
+   background-color: rgb(191, 153, 227);
+}
+body{
+background-color: rgb(215, 185, 243);
+
+}
+.ads1{
+    border : 5px outset rgb(34, 8, 40);
+width: 100px;
+margin-left: -10px;
+height: 1000px;
+}
+.ads2{
+
+    border : 5px outset rgb(34, 8, 40);
+width: 100px;
+float: right;
+height: 1000px;
+margin-top: -1010px;
+    margin-right: -10px;
+}
+ /* Extra small devices */
+ @media (max-width: 576px) { 
+    body{
+     background-color: brown;
+
+    }
+ .a1{
+
+    display: inline;
+margin: 10px;
+font-size: 15px;
+font-weight: bold;
+font-style: italic;
+ }
+  } 
+ /* Small devices (landscape phones, 576px and up)  */
+	@media (min-width: 576px) and (max-width: 768px) { /* ... */ } 
+ /* Medium devices (tablets, 768px and up)  */
+	@media (min-width: 768px) and (max-width: 992px)  { /* ... */ } 
+ /* Large devices (desktops, 992px and up)  */
+	@media (min-width: 992px) and (max-width: 1200px)  { /* ... */ } 
+ /* Extra large devices (large desktops, 1200px and up)  */
+	@media (min-width: 1200px) { /* ... */ } 
